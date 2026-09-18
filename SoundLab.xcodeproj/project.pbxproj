@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009C715AC8B8A828E40C8209 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E997C0F5B993A5AF7756037 /* RootView.swift */; };
+		1F688529F18B10FA7CC84F0F /* AudioCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5309E9AFFF209BCC7104C3 /* AudioCore.swift */; };
+		2EDAB9D445C9D9547E10CF35 /* CurriculumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C48DA2008C75AE0AD6EE3 /* CurriculumData.swift */; };
+		33304B929E6543FA101E2FF2 /* EarTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D07858073D15DD985A67C /* EarTrainer.swift */; };
+		4969D8354A513572B4C4B43E /* LogViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F96CCE8A52AD94AB3F4D04 /* LogViews.swift */; };
+		4E2141EEC08A7A06B18837B7 /* SynthLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137D883ACEB7EE18414DCC8 /* SynthLabView.swift */; };
+		51229CA99A769EDF07AFB775 /* FieldRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F4B11395C87CD4614F60FD /* FieldRecorder.swift */; };
+		68AD35EFB6D106C9A386308A /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEE4A8E077AFE497570A8F /* Records.swift */; };
+		809953518E458C36007D260D /* SoundLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */; };
+		A35FBD5E5B73B308CCE0C100 /* SynthVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAB97BC67639B726D9D033 /* SynthVisuals.swift */; };
+		D47E39E2831D4920F1096FED /* CurriculumViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E338080E7E00A28C86E4D /* CurriculumViews.swift */; };
+		D5B6FF0A2A395F6C358D14A5 /* EarTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9DC870C7DEE332E7FEBDB /* EarTrainingView.swift */; };
+		E04DDF72C201C48BDE2575A8 /* SoundAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F139F019CB0C939D42B12C7 /* SoundAnalysis.swift */; };
+		EEED6DA065E1E9761BC09829 /* MiniSynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A3FEE8CA5FB97B98A6FFF /* MiniSynth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B5233D94594C1E57B97BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		130A3FEE8CA5FB97B98A6FFF /* MiniSynth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSynth.swift; sourceTree = "<group>"; };
+		1E997C0F5B993A5AF7756037 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		23DEE4A8E077AFE497570A8F /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		2B5309E9AFFF209BCC7104C3 /* AudioCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCore.swift; sourceTree = "<group>"; };
+		35F4B11395C87CD4614F60FD /* FieldRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldRecorder.swift; sourceTree = "<group>"; };
+		4137D883ACEB7EE18414DCC8 /* SynthLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthLabView.swift; sourceTree = "<group>"; };
+		503D07858073D15DD985A67C /* EarTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainer.swift; sourceTree = "<group>"; };
+		64E9DC870C7DEE332E7FEBDB /* EarTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainingView.swift; sourceTree = "<group>"; };
+		661C48DA2008C75AE0AD6EE3 /* CurriculumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumData.swift; sourceTree = "<group>"; };
+		761E338080E7E00A28C86E4D /* CurriculumViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumViews.swift; sourceTree = "<group>"; };
+		8F139F019CB0C939D42B12C7 /* SoundAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalysis.swift; sourceTree = "<group>"; };
+		9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLabApp.swift; sourceTree = "<group>"; };
+		A0BAB97BC67639B726D9D033 /* SynthVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthVisuals.swift; sourceTree = "<group>"; };
+		C4F96CCE8A52AD94AB3F4D04 /* LogViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViews.swift; sourceTree = "<group>"; };
+		E147E4CB7E38E3CE85B0F0A1 /* SoundLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SoundLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		655B392952D37A5FC0408064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				761E338080E7E00A28C86E4D /* CurriculumViews.swift */,
+				64E9DC870C7DEE332E7FEBDB /* EarTrainingView.swift */,
+				C4F96CCE8A52AD94AB3F4D04 /* LogViews.swift */,
+				1E997C0F5B993A5AF7756037 /* RootView.swift */,
+				4137D883ACEB7EE18414DCC8 /* SynthLabView.swift */,
+				A0BAB97BC67639B726D9D033 /* SynthVisuals.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D1518FA21063D3D6BF81FCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				661C48DA2008C75AE0AD6EE3 /* CurriculumData.swift */,
+				23DEE4A8E077AFE497570A8F /* Records.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B9ECDE811D48ED375D3395A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2B5309E9AFFF209BCC7104C3 /* AudioCore.swift */,
+				503D07858073D15DD985A67C /* EarTrainer.swift */,
+				35F4B11395C87CD4614F60FD /* FieldRecorder.swift */,
+				130A3FEE8CA5FB97B98A6FFF /* MiniSynth.swift */,
+				8F139F019CB0C939D42B12C7 /* SoundAnalysis.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B039B0E03DC8D0597BB1F44F = {
+			isa = PBXGroup;
+			children = (
+				D7598BB22753112BFE0217E1 /* SoundLab */,
+				BEB0EEE945F85585A672148A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB0EEE945F85585A672148A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E147E4CB7E38E3CE85B0F0A1 /* SoundLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7598BB22753112BFE0217E1 /* SoundLab */ = {
+			isa = PBXGroup;
+			children = (
+				10B5233D94594C1E57B97BF3 /* Info.plist */,
+				9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */,
+				8B9ECDE811D48ED375D3395A /* Audio */,
+				7D1518FA21063D3D6BF81FCD /* Model */,
+				655B392952D37A5FC0408064 /* View */,
+			);
+			path = SoundLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F02217DF7CE6C72B8194976 /* SoundLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D2266EA15EA0313A7C79F7 /* Build configuration list for PBXNativeTarget "SoundLab" */;
+			buildPhases = (
+				B384A4A89454E1359FF67C0C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundLab;
+			packageProductDependencies = (
+			);
+			productName = SoundLab;
+			productReference = E147E4CB7E38E3CE85B0F0A1 /* SoundLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD6ECC5B2853B00267F05E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F02217DF7CE6C72B8194976 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9A5829D840AD08142E60D9E /* Build configuration list for PBXProject "SoundLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B039B0E03DC8D0597BB1F44F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F02217DF7CE6C72B8194976 /* SoundLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B384A4A89454E1359FF67C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F688529F18B10FA7CC84F0F /* AudioCore.swift in Sources */,
+				2EDAB9D445C9D9547E10CF35 /* CurriculumData.swift in Sources */,
+				D47E39E2831D4920F1096FED /* CurriculumViews.swift in Sources */,
+				33304B929E6543FA101E2FF2 /* EarTrainer.swift in Sources */,
+				D5B6FF0A2A395F6C358D14A5 /* EarTrainingView.swift in Sources */,
+				51229CA99A769EDF07AFB775 /* FieldRecorder.swift in Sources */,
+				4969D8354A513572B4C4B43E /* LogViews.swift in Sources */,
+				EEED6DA065E1E9761BC09829 /* MiniSynth.swift in Sources */,
+				68AD35EFB6D106C9A386308A /* Records.swift in Sources */,
+				009C715AC8B8A828E40C8209 /* RootView.swift in Sources */,
+				E04DDF72C201C48BDE2575A8 /* SoundAnalysis.swift in Sources */,
+				809953518E458C36007D260D /* SoundLabApp.swift in Sources */,
+				4E2141EEC08A7A06B18837B7 /* SynthLabView.swift in Sources */,
+				A35FBD5E5B73B308CCE0C100 /* SynthVisuals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18EC992326B3D37CB2CCFD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		663455282FAE8705A048A397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SoundLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.SoundLab;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8ADC6D610D7CFD28FDDBB686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SoundLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.SoundLab;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC99BF8BC79DF25A845F3FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D2266EA15EA0313A7C79F7 /* Build configuration list for PBXNativeTarget "SoundLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADC6D610D7CFD28FDDBB686 /* Debug */,
+				663455282FAE8705A048A397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9A5829D840AD08142E60D9E /* Build configuration list for PBXProject "SoundLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC99BF8BC79DF25A845F3FE4 /* Debug */,
+				18EC992326B3D37CB2CCFD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD6ECC5B2853B00267F05E4 /* Project object */;
+}
