@@ -28,4 +28,5 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.leeo.SoundLab
         TARGETED_DEVICE_FAMILY: "1"
         CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: QGAQ3AY3R3
         GENERATE_INFOPLIST_FILE: NO

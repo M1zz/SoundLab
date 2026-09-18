@@ -17,6 +17,7 @@
 		68AD35EFB6D106C9A386308A /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DEE4A8E077AFE497570A8F /* Records.swift */; };
 		809953518E458C36007D260D /* SoundLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */; };
 		A35FBD5E5B73B308CCE0C100 /* SynthVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAB97BC67639B726D9D033 /* SynthVisuals.swift */; };
+		C2A47F59BAD27AF8877A1DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA51C9A4AC8B59A8BF5F03D /* Assets.xcassets */; };
 		D47E39E2831D4920F1096FED /* CurriculumViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E338080E7E00A28C86E4D /* CurriculumViews.swift */; };
 		D5B6FF0A2A395F6C358D14A5 /* EarTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9DC870C7DEE332E7FEBDB /* EarTrainingView.swift */; };
 		E04DDF72C201C48BDE2575A8 /* SoundAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F139F019CB0C939D42B12C7 /* SoundAnalysis.swift */; };
@@ -34,6 +35,7 @@
 		503D07858073D15DD985A67C /* EarTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainer.swift; sourceTree = "<group>"; };
 		64E9DC870C7DEE332E7FEBDB /* EarTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTrainingView.swift; sourceTree = "<group>"; };
 		661C48DA2008C75AE0AD6EE3 /* CurriculumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumData.swift; sourceTree = "<group>"; };
+		6DA51C9A4AC8B59A8BF5F03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761E338080E7E00A28C86E4D /* CurriculumViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumViews.swift; sourceTree = "<group>"; };
 		8F139F019CB0C939D42B12C7 /* SoundAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalysis.swift; sourceTree = "<group>"; };
 		9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLabApp.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		D7598BB22753112BFE0217E1 /* SoundLab */ = {
 			isa = PBXGroup;
 			children = (
+				6DA51C9A4AC8B59A8BF5F03D /* Assets.xcassets */,
 				10B5233D94594C1E57B97BF3 /* Info.plist */,
 				9E2CFDB226F794DAF63F4EC7 /* SoundLabApp.swift */,
 				8B9ECDE811D48ED375D3395A /* Audio */,
@@ -113,6 +116,7 @@
 			buildConfigurationList = 26D2266EA15EA0313A7C79F7 /* Build configuration list for PBXNativeTarget "SoundLab" */;
 			buildPhases = (
 				B384A4A89454E1359FF67C0C /* Sources */,
+				A234FAA654657799D1A780B1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +139,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					9F02217DF7CE6C72B8194976 = {
+						DevelopmentTeam = QGAQ3AY3R3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,6 +162,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A234FAA654657799D1A780B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A47F59BAD27AF8877A1DAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B384A4A89454E1359FF67C0C /* Sources */ = {
@@ -247,6 +263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SoundLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -265,6 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SoundLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
